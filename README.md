@@ -11,7 +11,6 @@ https://github.com/engineer0914/arm_gripper_test/blob/main/test_cmd_serial.py
 https://github.com/engineer0914/arm_gripper_test/blob/main/test_gpio_ctrl.py
 
 
-
 ## - 듀얼 동작을 위한 환경설정
 
 ### 1 로봇내 컨트롤 박스 TCP/IP 설정 필요
@@ -34,7 +33,15 @@ C 메인 우분투 PC
 * GATEWAY : NONE           <- 공백
 
 
-### 2 듀얼 로봇을 위한 각개 IP 객체 선언
-- 예제 참고
+### 2 이더넷 결선 구조
 
+메인 PC ├─ 이더넷 허브/OR 와이파이 공유기
+        │
+        ├─ A 로봇팔
+        │
+        └─ B 로봇팔
+
+
+### 3 듀얼 로봇을 위한 각개 IP 객체 선언
+- 예제 참고
 
